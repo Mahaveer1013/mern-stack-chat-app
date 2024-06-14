@@ -1,0 +1,70 @@
+.my-profile{
+    background-color: #1d1f26;
+    height: 90vh;
+    width: 100%;
+    color: #aaafb4;
+}
+.my-profile-form img{
+    width: 150px;
+    height: 150px;
+}
+.dp-change{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: .3s;
+}
+.dp-change:hover{
+    background-color: #36393c;
+}
+.my-profile-content{
+    flex-direction: column;
+}
+.my-profile-form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.my-profile-form div div{
+    display: flex;
+    flex-direction: row;
+}
+.my-profile-form div{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 20px;
+}
+.my-profile-form input{
+    padding: 10px 10px;
+    border-radius: 4px;
+    width: 200px;
+    border: none;
+    background-color: #36393c;
+    color: #fff;
+    outline: none;
+}
+.my-profile-form button{
+    background-color: #36393c;
+    color: #fff;
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 4px;
+    width: 50px;
+    border: none;
+    outline: none;
+}
+.my-profile-form div{
+    justify-content: flex-start;
+}
+.my-profile-form label{
+    min-width: 200px;
+}
+.profile-dp{
+    flex-direction: row;
+    justify-content: center!important;
+    align-items: flex-end;
+    margin-top: 15px;
+}
+.profile-dp label{
+    min-width: 0;
+}

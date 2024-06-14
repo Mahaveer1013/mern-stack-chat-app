@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar{
+  width: 0 !important;
+  height: 0 !important;
+}
+
+body{
+  font-family: 'Poppins', sans-serif
+}
+.main-div{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+.fcc{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loading-screen{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 100;
+  backdrop-filter: blur(3px);
+}
+
+.flash-msg-div{
+  height: 20px;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  animation: flash-down .5s;
+  justify-content: start;
+  padding: 15px;
+  background-color: #65687a;
+  /* color: white; */
+}
+@keyframes flash-down {
+  0%{
+    top: -30px;
+  }
+  100%{
+    top: 0;
+  }
+}
+.flash-msg{
+  margin-left: 40px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: rgb(255, 206, 12);
+}
+.success{
+  color: rgb(172, 255, 47);
+}
+

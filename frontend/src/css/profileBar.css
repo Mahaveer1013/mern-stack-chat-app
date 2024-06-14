@@ -1,0 +1,133 @@
+.profile-bar{
+    width: 23vw;
+    /* animation: .5s open-profile linear; */
+    height: 100vh;
+    /* align-items: flex-start; */
+    background-color: #2a2b33;
+    padding: 0 30px;
+    right: 0;
+}
+.profile-div{
+    flex-direction: column;
+    gap: 2%;
+    height: 90%;
+    width: 100%;
+}
+.profile-close{
+    font-size: 20px;
+    color: #c1b7b7;
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+.profile-img img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid #c1b7b7;
+}
+.profile-img span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.profile-img span:hover{
+    color: #ddcdcd;
+}
+.profile-img{
+    color: aliceblue;
+    position: relative;
+}
+.profile-name{
+    letter-spacing: 1px;
+    flex-direction: column;
+}
+.profile-name p{
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 500;
+}
+.profile-name span{
+    color: lightgreen;
+    font-size: 14px;
+}
+.profile-btns{
+    color: #c1b7b7;
+    gap: 30px;
+}
+.profile-btns div{
+    border: 1px solid #c1b7b7;
+    padding: 15px;
+    width: 15px;
+    cursor: pointer;
+    height: 15px;
+    border-radius: 50%;
+    transition: .2s;
+}
+.profile-btns div:hover{
+    background-color: #c1b7b752;
+    transform: scale(1.1);
+}
+.common-ch{
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+}
+.common-ch p{
+    color: aliceblue;
+    font-size: 20px;
+}
+.common-ch-list{
+    width: 100%;
+    max-height: 170px;
+    overflow-y: auto;
+}
+.common-ch-list img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.common-ch ul{
+    width: 100%;
+    flex-direction: column;
+    gap: 5px;
+}
+.common-ch li{
+    list-style: none;
+    justify-content: flex-start;
+    width: 100%;
+    color: rgb(57, 226, 65);
+    padding: 10px 15px;
+    background-color: rgb(53, 51, 51) ;
+}
+
+.profile-options{
+    width: 100%;
+}
+.profile-options ul{
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.profile-options li{
+    list-style: none;
+    border-radius: 4px;
+    width: 100%;
+    border-top: 1px solid rgb(97, 93, 93);
+    padding: 10px 15px;
+    color: white;
+}
+.profile-options li:hover, .common-ch li:hover{
+    background-color: #40414a;
+    cursor: pointer;
+}
+.profile-options li:nth-child(3){
+    border-bottom: 1px solid rgb(97, 93, 93);
+    color: red;
+}
